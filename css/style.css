@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #7c7c72;
 }
 
 .header div {
@@ -51,7 +51,7 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -70,36 +70,56 @@ p {
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 95%;
+    display: block; 
+    margin-left: 37.5px;
+    margin-right: 37.5px;
 }
 
-.benefits {
-    margin-right: 20px;
+.benefits {  
+    float: auto;
+    width: 100%;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
+    margin-bottom: 32px;
+    color: #ffffff;
+ 
+}
+
+.benefit-lead {
+    float: left;
+    margin-left: 20px;
+    margin-right: 30px;
+    width: 30%;
+    height: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+    
+    float: left;
+    margin-left: 25px;
+    margin-right: 20px;
+     width: 30%;
+    height: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+ 
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+    float: right;
+    margin-left: 30px;
+    margin-right: 20px;
+     width: 30%;
+    height: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    
 }
+.p{
+    text-align: justify
+     }
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -118,19 +138,19 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     max-width: 150px;
 }
 
